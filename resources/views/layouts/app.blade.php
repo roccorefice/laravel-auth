@@ -29,9 +29,6 @@
                 <a href="{{ route('blog') }}" class="px-3">
                     Blog
                 </a>
-                <a href="{{ route('admin.posts.index') }}" class="px-3">
-                    Admin
-                </a>
                 <a href="{{ route('contacts') }}" class="px-3">
                     Contacts
                 </a>
@@ -68,6 +65,8 @@
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('admin.posts.index') }}">Admin</a>
+                                    <a class="dropdown-item" href="{{ route('blog') }}">Guest</a>
+
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

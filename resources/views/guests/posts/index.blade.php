@@ -1,7 +1,7 @@
  @extends('layouts.app')
 
  @section('content')
-    <h1>All posts for blog</h1>
+    <h1>All posts for Guest</h1>
 
     @foreach ($posts as $post)
 
