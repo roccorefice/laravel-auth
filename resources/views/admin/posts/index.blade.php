@@ -22,7 +22,7 @@
             <td>{{ $post->slug }}</td>
             <td>
                 <a href="{{route('admin.posts.show', ['post' => $post->slug])}}" class="btn btn-primary p-1 m-1">View</a>
-                <a href="{{route('admin.posts.edit', ['post' => $post->id])}}" class="btn btn-primary p-1 m-1">Edit
+                <a href="{{route('admin.posts.edit', ['post' => $post->slug])}}" class="btn btn-primary p-1 m-1">Edit
                 </a>
                 <a href="#" class="btn btn-primary p-1 m-1">Delete</a>
             </td>

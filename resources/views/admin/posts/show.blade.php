@@ -7,5 +7,4 @@
     {{ $post->body }}
 </p>
 
-
 @endsection
